@@ -1,6 +1,6 @@
-# saycet
+# SayChat
 
-saycet is a web application which provides a private communication. It encrypts our conversation and decrypts that by a sequence which is changed everyday at 00:00 GMT+0.
+SayChat is a web application that provides a private and encrypted communication. It encrypts our conversation and decrypts that by a sequence which is changed everyday at 00:00 GMT+0.
 
 ### For example;
 ##### Feb 2 23:59:59 GMT+0
