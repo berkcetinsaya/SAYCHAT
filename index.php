@@ -1,4 +1,6 @@
-
+<?php
+	include("db_conn.php");
+	?>
 <html>
 	<head>
 		<style>
@@ -42,7 +44,7 @@
 			}
 			footer .footer-below {
 			    padding: 25px 0;
-			    background-color: #233140;
+			    //background-color: #233140;
 			    font-size: 16px;
 			}
 		</style>
@@ -152,24 +154,21 @@
 							echo $s;
 						}
 						else
-							echo '&nbsp';		
+							echo '&nbsp';
 					}
 					echo '</p>';
 				}
-				echo '</div>';
-				/*
+				echo '</div>';?>
 				<footer class="text-center">
 			        <div class="footer-below">
-			            <div class="container">
 			                <div class="row">
 			                    <div style="text-align:center">
-			                        Copyright &copy; Berk Cetinsaya & Furkan Sayin 2016
+			                        Copyright <b>Berk Cetinsaya</b> &copy; <?php echo date("Y"); ?>
 			                    </div>
 			                </div>
-			            </div>
 			        </div>
-			    </footer>*/
-			?>
+			    </footer>
+			
 		</div>
 	</body>
 </html>
